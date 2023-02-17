@@ -1,5 +1,5 @@
 dev:
-	poetry run flask --app page_analyzer:app run
+	poetry run flask --app app:main run
 
 install: 
 	poetry install
@@ -17,7 +17,7 @@ package-uninstall:
 	python3 -m pip uninstall --yes dist/*.whl
 
 lint:
-	poetry run flake8 page_analyzer
+	poetry run flake8 app
 
 PORT ?= 8000
 start:
