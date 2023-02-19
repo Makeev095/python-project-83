@@ -17,7 +17,7 @@ package-uninstall:
 	python3 -m pip uninstall --yes dist/*.whl
 
 lint:
-	poetry run flake8 app
+	poetry run flake8 page_analyzer
 
 PORT ?= 8000
 start:
