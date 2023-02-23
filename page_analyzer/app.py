@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 
 def get_connection():
-    return psycopg2.connect('postgresql://postgres:5RSXgc7ht9QbmIA3P3dd@containers-us-west-171.railway.app:7931/railway')
+    return psycopg2.connect('postgresql://postgres:6B29nWCcTTd1uERXS7tB@containers-us-west-192.railway.app:5512/railway')
 
 
 def get_content_of_page(page_data):
