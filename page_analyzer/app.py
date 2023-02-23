@@ -14,13 +14,11 @@ from page_analyzer.url import validate_url
 app = Flask(__name__)
 
 
-load_dotenv()
-app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
-DATABASE_URL = os.getenv('DATABASE_URL')
+
 
 
 def get_connection():
-    return psycopg2.connect(DATABASE_URL)
+    return psycopg2.connect('postgresql://${{ postgres }}:${{ 5RSXgc7ht9QbmIA3P3dd }}@${{ containers-us-west-171.railway.app }}:${{ 7931 }}/${{ railway }}')
 
 
 def get_content_of_page(page_data):
