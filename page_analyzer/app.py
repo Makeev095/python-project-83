@@ -1,7 +1,6 @@
 import bs4
 import psycopg2
 import psycopg2.extras
-import os
 import requests
 import datetime
 from flask import Flask, request, url_for, flash, redirect, render_template
@@ -11,9 +10,6 @@ from page_analyzer.url import validate_url
 
 
 app = Flask(__name__)
-
-
-
 
 
 def get_connection():
