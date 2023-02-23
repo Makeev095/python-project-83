@@ -5,7 +5,6 @@ import os
 import requests
 import datetime
 from flask import Flask, request, url_for, flash, redirect, render_template
-from dotenv import load_dotenv
 from requests import ConnectionError, HTTPError
 from urllib.parse import urlparse
 from page_analyzer.url import validate_url
