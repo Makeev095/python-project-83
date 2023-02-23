@@ -12,6 +12,8 @@ from page_analyzer.url import validate_url
 app = Flask(__name__)
 
 
+SECRET_KEY = 'makey'
+
 def get_connection():
     return psycopg2.connect('postgresql://postgres:6B29nWCcTTd1uERXS7tB@containers-us-west-192.railway.app:5512/railway')
 
