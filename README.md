@@ -20,6 +20,6 @@ https://python-project-83-production-df71.up.railway.app
 * psycopg2
 * beautifulsoup4
 
-[url=https://postimg.cc/FkRLyy4n][img]https://i.postimg.cc/prQJtC1x/2023-02-23-18-48-50.png[/img][/url]
+[!['Главная страница'](https://i.postimg.cc/prQJtC1x/2023-02-23-18-48-50.png)](https://postimg.cc/FkRLyy4n)
 
-[url=https://postimg.cc/QVx1Z3Tk][img]https://i.postimg.cc/pVKZ8VV7/2023-02-23-18-49-50.png[/img][/url]
+[!['Страница с запросом'](https://i.postimg.cc/pVKZ8VV7/2023-02-23-18-49-50.png)](https://postimg.cc/QVx1Z3Tk)
