@@ -1,11 +1,11 @@
 import bs4
 import psycopg2
 import psycopg2.extras
+import os
 import requests
 import datetime
-import os
-from dotenv import load_dotenv
 from flask import Flask, request, url_for, flash, redirect, render_template
+from dotenv import load_dotenv
 from requests import ConnectionError, HTTPError
 from urllib.parse import urlparse
 from page_analyzer.url import validate_url
@@ -20,7 +20,7 @@ DATABASE_URL = os.getenv('DATABASE_URL')
 
 
 def get_connection():
-    return psycopg2.connect(DATABASE_URL)
+    return psycopg2.connect('postgresql://postgres:6B29nWCcTTd1uERXS7tB@containers-us-west-192.railway.app:5512/railway')
 
 
 def get_content_of_page(page_data):
