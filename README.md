@@ -12,3 +12,14 @@ https://python-project-83-production-df71.up.railway.app
 [![CI Check](https://github.com/Makeev095/python-project-83/workflows/main/badge.svg)](https://github.com/Makeev095/python-project-83/actions)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/c275e15046e7cb6fd0a5/maintainability)](https://codeclimate.com/github/Makeev095/python-project-83/maintainability)
+
+## App developed with:
+* Python
+* Flask
+* gunicorn
+* psycopg2
+* beautifulsoup4
+
+[url=https://postimg.cc/FkRLyy4n][img]https://i.postimg.cc/prQJtC1x/2023-02-23-18-48-50.png[/img][/url]
+
+[url=https://postimg.cc/QVx1Z3Tk][img]https://i.postimg.cc/pVKZ8VV7/2023-02-23-18-49-50.png[/img][/url]
