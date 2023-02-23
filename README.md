@@ -9,7 +9,7 @@ https://python-project-83-production-df71.up.railway.app
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Makeev095/python-project-83/workflows/hexlet-check/badge.svg)](https://github.com/Makeev095/python-project-83/actions)
 
-[![Actions Check](https://github.com/Makeev095/python-project-83/workflows/main/badge.svg)](https://github.com/Makeev095/python-project-83/actions)
+[![Actions Check](https://github.com/Makeev095/python-project-83/workflows/main.yml/badge.svg)](https://github.com/Makeev095/python-project-83/actions)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/c275e15046e7cb6fd0a5/maintainability)](https://codeclimate.com/github/Makeev095/python-project-83/maintainability)
 
