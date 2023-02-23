@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 
 def get_connection():
-    return psycopg2.connect('postgresql://${{ postgres }}:${{ 5RSXgc7ht9QbmIA3P3dd }}@${{ containers-us-west-171.railway.app }}:${{ 6512 }}/${{ railway }}')
+    return psycopg2.connect('postgresql://${{ postgres }}:${{ 5RSXgc7ht9QbmIA3P3dd }}@${{ containers-us-west-171.railway.app }}:${{ 7931 }}/${{ railway }}')
 
 
 def get_content_of_page(page_data):
